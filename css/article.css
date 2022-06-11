@@ -1,0 +1,148 @@
+.bg-hero-blog {
+    background: url("../img/marvel-decade-all-heroes-avengers-end-game.jpg") no-repeat  50% 10%;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.text-article {
+
+    color: var(--text-dark);
+}
+
+.z-index {
+    z-index: 2;
+}
+
+.pt-10 {
+    padding: 200px 0 50px 0;
+}
+
+.mt-6 {
+    margin-top: 100px;
+}
+
+.share {
+    font-size: 16px;
+    font-weight: 700;
+    color: #72747e;
+}
+
+.share-sm {
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-hover {
+    filter: grayscale(1);
+    transition: 200ms all ease-in-out;
+}
+
+.btn-hover:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+.sm-icon {
+    height: 20px;
+}
+
+.title-article {
+    font-weight: 700;
+}
+
+.subtitle-article {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.input-group-user {
+    display: flex;
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    color: var(--text-dark);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-user {
+    display: flex;
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    color: var(--text-dark);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sort-by {
+    background-color: transparent;
+    border: none;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.btn-simple {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.btn-simple:hover {
+    text-decoration: underline;
+}
+
+.user-name {
+    font-size: 16px;
+}
+
+.comments-btns {
+    font-size: 14px;
+    font-weight: 600;
+    color: #565e64;
+    text-decoration: none;
+}
+
+.bullet {
+    opacity: .5;
+}
+
+.likes {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    padding-top: 3px;
+    font-style: italic;
+}
+
+.icon-comments {
+    height: 20px;
+    opacity: .35;
+    transition: 250ms all ease-in-out;
+}
+
+.icon-comments:hover {
+    opacity: 1;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .share-sm {
+        padding: 0 15px;
+    }
+}

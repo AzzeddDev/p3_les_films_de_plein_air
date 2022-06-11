@@ -1,0 +1,33 @@
+.hero {
+    position: relative;
+    background: url("../img/img-hero-calendrier.jpg") no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 8px;
+    color: #fff;
+    z-index: 99;
+}
+
+.hero:before {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+    z-index: -1;
+    border-radius: 8px;
+}
+
+
+.tabbable .nav-tabs {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+.tabbable .nav-tabs {
+    white-space: nowrap;
+}

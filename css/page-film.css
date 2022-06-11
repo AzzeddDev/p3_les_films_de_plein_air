@@ -1,0 +1,191 @@
+.bg-hero-film {
+    background: url("../img/spider-man-no-way-home-hero.webp") no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.bg-hero-film:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 0;
+}
+
+.hero-negative {
+    margin-top: -215px;
+}
+
+
+
+
+
+
+
+/******* Film Cover *******/
+.profile-cover {
+    border-radius: 8px;
+}
+
+.img-profile-cover {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+
+
+
+/******* Film sub-info *******/
+.film-under-infos-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.film-under-infos {
+    font-size: 14px;
+    font-weight: 500;
+    color: #727281;
+}
+
+
+
+
+
+
+
+
+
+
+/******* Film info col *******/
+.film-date {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.film-name {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.icon-time {
+    color: #fff;
+}
+
+.film-length {
+    color: #fff;
+    font-weight: 600;
+}
+
+.color-rating {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.bullet-point {
+    color: #fff;
+}
+
+.notes {
+    color: #fff;
+    font-weight: 600;
+}
+
+.infos-film {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-reserver-absolute {
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+
+
+
+
+
+
+/****** Summary & Photo ******/
+.apercu-photo-row {
+    margin-top: 34px;
+}
+
+.title-section-film {
+    font-size: 24px;
+    font-weight: 700;
+    border-left: 10px solid var(--primary-color);
+    padding-left: 8px;
+}
+
+.film-summary-p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.view-more-gallery {
+    display: flex;
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+    color: var(--text-dark);
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-video-film {
+    height: 500px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+/****** Margin Top / bottom Section ******/
+.mb-6 {
+    margin-bottom: 80px!important;
+}
+
+
+
+
+
+/****** Media queries ******/
+@media (max-width: 767px) {
+    .dark-text-md-sm {
+        color: var(--text-dark) !important;
+    }
+
+    .btn-reserver-absolute {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+
+    .align-block-md {
+        text-align: center;
+    }
+
+    .align-block-md-flex {
+        justify-content: center;
+    }
+}
+
+
+

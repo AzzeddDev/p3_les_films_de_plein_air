@@ -1,0 +1,50 @@
+.bg-hero-blog {
+    background: url("../img/marvel-decade-all-heroes-avengers-end-game.jpg") no-repeat  50% 10%;
+    background-size: cover;
+    display: flex;
+    z-index: 1;
+}
+
+.bg-hero-blog:before {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2189250700280112) 81%, rgba(0,0,0,0) 100%);
+    z-index: 0;
+}
+
+.text-article {
+
+    color: var(--text-dark);
+}
+
+.z-index {
+    z-index: 2;
+}
+
+.pt-10 {
+    padding: 200px 0 50px 0;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.btn-filters {
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.btn-filters:hover {
+    color: var(--text-dark);
+    text-decoration: underline;
+}
+
+
+
+
+
